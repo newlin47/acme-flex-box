@@ -33,12 +33,54 @@ body {
   color: gray;
 }
 
-.form {
+section {
   display: flex;
-  flex-direction: column;
-  align-items: left;
+  justify-content: space-between;
+}
+
+.userlist {
+  display: flex;
+}
+
+.usercard {
+  display: flex;
   border: 1px solid black;
   border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
-  text-align: left;
-  width: 50vw;
+  align-items: left;
+  padding: 1rem;
+  flex: 2;
+  flex-direction: column;
+}
+#cardtitle {
+  text-align: center;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1 1 33%;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#form1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.spacer {
+  flex: 1;
+}
+
+label {
+  display: inline-block;
 }

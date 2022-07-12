@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="/Users/ethannewlin/Desktop/Fullstack Junior Phase/acme-flex-box/styles.css"></link>
@@ -16,13 +17,52 @@
       <div>
           <h2>Users</h2>
       </div>
-      <div>
-        <div class="form">
-            <h3>Create a User</h3>
-            <p>First Name:</p>
+      <section>
+        <div class="spacer"></div>
+        <div class="usercard">
+          <h2 id="cardtitle">Create a User</h2>
+          <form id="form1" action="/form/submit" method="post">
+            <div>
+              <label>First Name:</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label>Last Name:</label>
+              <input type="text" />
+            </div>
+            <div>
+              <label>Department</label>
+              <input type="text" />
+            </div>
+          </form>
         </div>
-        <div class="userlist"></div>
+        <div class="spacer"></div>
+      </section>
+      <div></div>
+      <div class="userlist">
+        <div class="userinfo">
+          <p class="username">User A</p>
+          <p>Some info about the user here</p>
+        </div>
+        <div class="userinfo">
+          <p class="username">User A</p>
+          <p>Some info about the user here</p>
+        </div>
+        <div class="userinfo">
+          <p class="username">User A</p>
+          <p>Some info about the user here</p>
+        </div>
+        <div class="userinfo">
+          <p class="username">User A</p>
+          <p>Some info about the user here</p>
+        </div>
+        <div class="userinfo">
+          <p class="username">User A</p>
+          <p>Some info about the user here</p>
+        </div>
+        <div class="userinfo">
+          <p class="username">User A</p>
+          <p>Some info about the user here</p>
+        </div>
       </div>
-
-  </body>
 </html>
