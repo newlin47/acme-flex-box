@@ -21,7 +21,7 @@
         <div class="spacer"></div>
         <div class="usercard">
           <h2 id="cardtitle">Create a User</h2>
-          <form id="form1" action="/form/submit" method="post">
+          <form id="form1">
             <div>
               <label>First Name:</label>
               <input type="text" />
@@ -32,13 +32,17 @@
             </div>
             <div>
               <label>Department</label>
-              <input type="text" />
+                <select>
+                  <option value="none" selected>-None-</option>
+                  <option value="sales">Sales</option>
+                  <option value="accounting">Accounting</option>
+                  <option value="humanresources">Human Resources</option>
+                  <option value="technology">Technology</option>
+                </select>
             </div>
-            <div class="clickers">
-              <label>Cancel</label>
-              <input type="button">
-              <label>Save</label>
-              <input type="button">
+            <div>
+              <button class="clear">Cancel</button>
+              <button class="save">Save</button>
             </div>
           </form>
         </div>
